@@ -73,7 +73,7 @@ Examples:
 * `add John Doe p/98765432 e/johnd@gmail.com`
 * `add Betsy Crowe e/bencrowe@gmail.com p/1234567 `
 
-#### Adding a person: `update`
+#### Updating a person: `update`
 > Updates a person in the address book
 
 Format: `update NAME p/PHONE_NUMBER e/EMAIL`  
