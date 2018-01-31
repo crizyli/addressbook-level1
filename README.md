@@ -73,6 +73,17 @@ Examples:
 * `add John Doe p/98765432 e/johnd@gmail.com`
 * `add Betsy Crowe e/bencrowe@gmail.com p/1234567 `
 
+#### Adding a person: `update`
+> Updates a person in the address book
+
+Format: `update NAME p/PHONE_NUMBER e/EMAIL`  
+> Words in `UPPER_CASE` are the parameters<br>
+  Phone number and email can be in any order but the name must come first.
+
+Examples: 
+* `update John Doe p/98765432 e/johnd@gmail.com`
+* `update Betsy Crowe e/bencrowe@gmail.com p/1234567 `
+
 #### Listing all persons: `list`
 
 > Shows a list of persons, as an indexed list, in the order they were added to the address book, 
